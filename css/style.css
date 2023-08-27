@@ -23,15 +23,47 @@ h1{
     font-weight: 800;
     font-size: 3.1rem;
 }
-
-.side-news h2,h3,p{
-    padding-left: 10px;
+.read-btn{
+    padding: 7px 30px;
+    border: none;
+    background-color:hsl(5, 85%, 63%);
+    color: hsl(36, 100%, 99%);
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    margin-top: 20px;
 }
+.read-btn:hover{
+    background-color: hsl(240, 100%, 5%);
+}
+
+
 h2{
     padding-top: 20px;
     color: hsl(35, 77%, 62%);
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-weight: 700;
+}
+
+h3{
+    font-size: 1rem;
+    font-weight: 800;
+    cursor: pointer;
+}
+h3:hover{
+    color: hsl(35, 77%, 62%);
+
+}
+.side-news p{
+    font-weight: 400;
+    color: hsl(233, 8%, 79%);
+    margin-bottom: 10px;
+    width: 75%;
+}
+
+hr{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
 }
 @media(max-width:991px){
     .sidebar{
