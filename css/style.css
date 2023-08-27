@@ -15,11 +15,32 @@ color: hsl(240, 100%, 5%);
 .menus li a:hover{
     color: hsl(5, 85%, 63%);
 }
+.side-news{
+    background-color: hsl(240, 100%, 5%);
+    color: hsl(36, 100%, 99%);
+}
+h1{
+    font-weight: 800;
+    font-size: 3.1rem;
+}
+
+.side-news h2,h3,p{
+    padding-left: 10px;
+}
+h2{
+    padding-top: 20px;
+    color: hsl(35, 77%, 62%);
+    margin-bottom: 20px;
+    font-weight: 700;
+}
 @media(max-width:991px){
     .sidebar{
         background-color:hsl(36, 100%, 99%);
     }
     .menus li a{
         font-weight: 400;
+        }
+        .side-news h2,h3,p{
+            padding-left: 0;
         }
 }
