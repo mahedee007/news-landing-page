@@ -24,12 +24,12 @@ h1{
     font-size: 3.1rem;
 }
 .read-btn{
-    padding: 7px 30px;
+    padding: 10px 30px;
     border: none;
     background-color:hsl(5, 85%, 63%);
     color: hsl(36, 100%, 99%);
     font-size: 0.8rem;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     margin-top: 20px;
 }
 .read-btn:hover{
@@ -57,13 +57,26 @@ h3:hover{
     font-weight: 400;
     color: hsl(233, 8%, 79%);
     margin-bottom: 10px;
-    width: 75%;
+    
+    text-align: justify;
 }
 
 hr{
     margin-top: 40px;
     margin-bottom: 40px;
     
+}
+h4{
+    font-weight: 700;
+    color: hsl(233, 8%, 79%);
+}
+h5{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.features p{
+    color: hsl(236, 13%, 42%);
+    font-weight: 400;
 }
 @media(max-width:991px){
     .sidebar{
